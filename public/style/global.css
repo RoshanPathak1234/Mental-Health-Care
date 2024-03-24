@@ -1,0 +1,48 @@
+.button {
+    border-radius: 30px;
+    background: #fdf28e;
+    color: black;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    font-size: medium;
+    box-shadow: none;
+    transition: background 0.5s linear, color 0.5s linear;
+}
+.button:hover {
+    background: transparent;
+    color: whitesmoke;
+}
+
+.color-white {
+    color: whitesmoke;
+}
+.flex {
+    display: flex;
+}
+.flex-align-center {
+    align-items: center;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex-space {
+    justify-content: space-around;
+}
+.gap-5 {
+    gap: 2vw;
+}
+.inline-block {
+    display: inline-block;
+}
+
+.li-none {
+    list-style: none;
+}
+.text-none {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.vertical-mid {
+    vertical-align: middle;
+}

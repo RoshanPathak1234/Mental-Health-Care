@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+.Appointment {
+    font-size: larger;
+    padding: 10px 8px 10px 8px;
+    background: #c4ac8c;
+    border: 1px solid white;
+    transition: background 0.8s;
+}
+
+.Appointment:hover {
+    background: transparent;
+}
+
+body {
+    background-color: #050740;
+    color: white;
+}
+.botContainer {
+    background: whitesmoke;
+    border-radius: 10px;
+}
+.buttons {
+    margin-top: 3rem;
+}
+
+.Doctor {
+    font-size: larger;
+    padding: 10px 10px 10px 10px;
+    background: transparent;
+    border: 2px solid white;
+    transition: background 0.8s;
+}
+
+.Doctor:hover {
+    background: #c4ac8c;
+}
+.funbot {
+    height: 80vh;
+    width: 96vw;
+    margin: 1rem;
+    background-color: wheat;
+    overflow-x: hidden;
+    border-radius: 20px;
+}
+.funBotHeader {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.funBotHeader h1{
+    font-size: x-large;
+    font-weight: normal;
+}
+
+.Header {
+    width: 100vw;
+    height: max-content;
+    background-color: #041c34;
+    color: whitesmoke;
+    padding: 20px 10px 5px 50px;
+}
+
+.hero {
+    padding-top: 4rem;
+    line-height: 6rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: lighter !important;
+}
+.inputChat {
+    height: 3rem;
+    margin-left: 1rem;
+    border-radius: 20px;
+    bottom: 10px;
+    position: absolute;
+    width: 95%;
+    background: whitesmoke;
+    border: 1px solid whitesmoke;
+    color: rgb(59, 8, 107);
+    font-size: large;
+    padding: 1rem;
+    font-style: italic;
+}
+.logoImg {
+    height: 70px;
+    width: 70px;
+    padding-left: 2px;
+    border-radius: 50px;
+}
+
+.mood {
+    margin-right: 5rem;
+}
+.sendIcon {
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+    right: 40px;
+    bottom: 13px;
+}
