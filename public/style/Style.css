@@ -2,7 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-
+    list-style: none;
 }
 
 .Appointment {
@@ -72,13 +72,16 @@ body {
     font-style: italic;
     font-weight: lighter !important;
 }
+.input {
+    margin-left: 0.5rem;
+}
 .inputChat {
     height: 3rem;
     margin-left: 1rem;
     border-radius: 20px;
     bottom: 10px;
     position: absolute;
-    width: 95%;
+    width: 96%;
     background: whitesmoke;
     border: 1px solid whitesmoke;
     color: rgb(59, 8, 107);
@@ -92,14 +95,36 @@ body {
     padding-left: 2px;
     border-radius: 50px;
 }
-
+.message-container {
+   display: flex;
+   flex-direction: column;
+}
 .mood {
     margin-right: 5rem;
 }
 .sendIcon {
-    height: 2.5rem;
-    width: 2.5rem;
     position: absolute;
-    right: 40px;
-    bottom: 13px;
+    right: 50px;
+    bottom: 20px;
+}
+.system {
+    background: #f060e5;
+    width: fit-content;
+    color: rgb(65, 8, 57);
+    border-radius: 20px 20px 20px 1px;
+    float: left;
+    margin: 5px;
+    padding: 15px 20px;
+    align-self: flex-start;
+}
+.user {
+    background: #48efc3;
+    border: 1px solid #dab9d6;
+    width: fit-content;
+    padding: 15px 10px;
+    border-radius: 20px 20px 1px 20px;
+    color: rgb(59, 8, 107);
+    float: right;
+    margin: 10px;
+    align-self: flex-end;
 }

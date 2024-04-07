@@ -13,11 +13,11 @@ const Header = () => {
         </div>
       <div className="content">
         <ul className='flex flex-space li-none a-color flex-align-center gap-5'>
-            <li><Link className='text-none color-white' to="/">Home</Link></li>
-            <li><Link className='text-none color-white' to="/">Conatct</Link></li>
-            <li><Link className='text-none color-white' to="/">Services</Link></li>
+            <li><Link className='text-none color-white onHover ' to="/">Home</Link></li>
+            <li><Link className='text-none color-white onHover' to="/Contact">Conatct</Link></li>
+            <li><Link className='text-none color-white onHover ' to="/About">About</Link></li>
             <li><Link className='text-none color-white Appointment' to="/">Book Your Appointment</Link></li>
-            <li><Link className='text-none color-white Doctor' to="/">Doctor Login</Link></li>
+            <li><Link className='text-none color-white Doctor' to="/Login">Doctor Login</Link></li>
         </ul>
       </div>
     </div>

@@ -30,12 +30,17 @@
 .gap-5 {
     gap: 2vw;
 }
+
 .inline-block {
     display: inline-block;
 }
 
 .li-none {
     list-style: none;
+}
+.onHover:hover {
+    font-size: large;
+    color: rgb(151, 231, 12);
 }
 .text-none {
     text-decoration: none;
