@@ -80,7 +80,7 @@ body {
     margin-left: 1rem;
     border-radius: 20px;
     bottom: 10px;
-    position: absolute;
+    position: relative;
     width: 96%;
     background: whitesmoke;
     border: 1px solid whitesmoke;
@@ -88,6 +88,17 @@ body {
     font-size: large;
     padding: 1rem;
     font-style: italic;
+}
+.input-chatbot{
+    border-radius: 30px;
+    width: 50rem;
+    height: 3rem;
+    padding: 2rem;
+    font-size: larger;
+    color: purple;
+}
+.msg{
+    font-size: xx-large;
 }
 .logoImg {
     height: 70px;
@@ -102,10 +113,11 @@ body {
 .mood {
     margin-right: 5rem;
 }
+
 .sendIcon {
     position: absolute;
     right: 50px;
-    bottom: 20px;
+    bottom: 5px;
 }
 .system {
     background: #f060e5;

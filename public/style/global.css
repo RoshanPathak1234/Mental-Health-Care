@@ -24,8 +24,14 @@
 .flex-col {
     flex-direction: column;
 }
+.flex-just-center{
+    justify-content: center;
+}
 .flex-space {
     justify-content: space-around;
+}
+.flex-item{
+    flex:1 1 auto;
 }
 .gap-5 {
     gap: 2vw;
@@ -42,6 +48,9 @@
     font-size: large;
     color: rgb(151, 231, 12);
 }
+.h-screen{
+    height: 100vh;
+}
 .text-none {
     text-decoration: none;
 }
@@ -51,3 +60,4 @@
 .vertical-mid {
     vertical-align: middle;
 }
+
